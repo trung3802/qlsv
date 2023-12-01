@@ -1,0 +1,89 @@
+/*css của header admincp */
+
+.header{
+    background-color: rgb(224,225,225);
+    border: 1px solid rgb(175, 168, 155);
+    border-radius:10px; 
+    display: flex;
+}
+.tieude{
+    font-size: 35px;
+    margin-left: 250px;
+    color: #384289;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*css meunu admincp*/
+.ulmenu{
+    margin-top: 5px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #384289;
+    border:solid 1px rgb(175, 168, 155);
+    border-radius: 10px;
+    list-style: none;
+    display: flex;
+    gap:100px;
+}
+.ulmenu li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.ulmenu li{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+a:hover,
+a:active {
+  background-color:#384289; /* Màu nền khi hover hoặc click */
+  color: #ffffff; /* Màu chữ khi hover hoặc click */
+  border-radius: 10px;
+}
+
+/*css dashboard admincp*/
+.hinhtrangchu{
+    height: 40%;
+    width: 100%;
+}
+/*css footer admincp*/
+footer{
+    background: linear-gradient(to right, #87CEEB, #0000CD);
+    padding: 20px;
+    gap: 10px;
+    border-top: 1px solid #fff;
+  }
+  
+  .ten {
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  .booxfooter1 {
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    
+  }
+  .logo{
+    background-color: #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+
+  /*css them cố vấn học tập*/
+  .tieudethemcvht{
+    font-size: 20px;
+    font-weight: bold;
+    color:  #384289;
+    margin-bottom: 8px;
+  }
+  .bangthemcvht{
+    margin-top: 10px;
+  }
